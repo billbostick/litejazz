@@ -1,0 +1,1 @@
+[18-Sep-2007 08:40:35] PHP Fatal error:  Call to undefined function:  theme_get_setting() in /home/roopl3/public_html/demo/litejazz014/sites/all/themes/litejazz/template.php on line 4

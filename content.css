@@ -1,0 +1,28 @@
+/* demo content */
+#downloadjazz {
+    width: 100px;
+	height: 100px;
+	float:  right;
+	position: relative;
+    display: inline;
+	margin-top: -20px;
+}
+
+#configscreen {
+    width: 200px;
+	height: 177px;
+	float:  right;
+	position: relative;
+    display: inline;
+	margin-top: -40px;
+}
+
+#configmagglass {
+    width: 200px;
+	height: 239px;
+	float:  right;
+	position: relative;
+    display: inline;
+	margin-top: -40px;
+}
+

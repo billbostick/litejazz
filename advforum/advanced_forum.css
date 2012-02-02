@@ -1,0 +1,281 @@
+/* $Id: advanced_forum.css,v 1.16 2008/05/28 21:01:04 michellec Exp $ */
+
+/********************************* BEGIN FORUM GENERAL******************************************/
+#forum a:hover {
+	text-decoration: none;
+}
+
+
+/********************************* BEGIN PAGER ************************************************/
+
+#forum .pager {
+	clear:none;
+	float:right;
+}
+
+#forum .pager a {
+  text-decoration: none;
+  border: 1px solid #2788C5;
+  background: #fff url(images/gradient-inner.png) repeat-x left top;
+  font-weight: bold;
+}
+
+#forum .pager a.active { 
+  color: #006; 
+}
+
+#forum .pager-current, 
+#forum .pager a:hover { 
+  background: #2788C5; 
+  color: #fff;
+}
+
+/********************************* END PAGER ************************************************/
+
+/********************************* BEGIN FORUM TABLES ********************************************/
+
+/* General */
+
+#forum table {
+  border: 1px solid #A7C1DF;
+  clear:both;
+}
+
+#forum th {
+  background-color: #2788C5;
+  color: white;	
+}
+
+#forum th a, #forum th a:link, #forum th a:hover, #forum th a:visited{
+  font-weight: bold;
+  color: white;	
+}
+
+/* Containers & Forums*/
+
+#forum td.container {
+  background-color: #6FB7DF;
+  color: white;
+}
+
+#forum td.container a { 
+  font-weight: bold;
+  color: white;
+}
+
+#forum .description {
+  font-size: 75%;
+  color: white;
+}
+
+#forum .forum .description { 
+ color: #6FB5DF;
+}
+
+#forum tr td.forum {
+  background-image:url(images/forum.png);
+  background-position:2px 50%;
+  background-repeat:no-repeat;
+  padding-left:25px;
+}
+
+#forum tr td.forum-list-new{
+  background-image:url(images/forum-all-new.png);
+}
+
+#forum tr td.forum .name,
+#forum tr td.forum .description {
+  margin-left: 12px;
+}
+
+/* Topic listings */
+
+#forum td.statistics, #forum td.settings, #forum td.pager {
+  border: 1px solid #bbb;
+}
+
+#forum td .links {
+  font-size: 0.9em;
+}
+
+#forum tr.notsticky {
+	
+}
+#forum tr.firstnotsticky {
+	
+}
+#forum tr.stickytopic {
+	background: #95CDEF;
+}
+
+/* Top links */
+#forum li {
+  list-style-type: none;
+  list-style-image: none;
+}
+
+.indent {
+	margin-left: 30px;
+}
+
+/********************************* END FORUM TABLES ********************************************/
+
+
+/********************************* BEGIN FORUM THREADS ********************************************/
+
+.toppost {
+/* This can be used for any special formatting of the main node */
+}
+
+.forum-comment {
+  border: 1px solid #2587C4;
+}
+
+/* Header at the top of each post */
+.post-info {
+  background: #3898D3 ;
+  color:white;
+}
+
+.postedon{
+	font-weight: bold;
+	font-size: .8em;
+}
+
+.posttitle{
+  font-weight: bold;
+  border-bottom: 1px solid #2587C4;
+}
+
+.forum-comment .new {
+  font-weight:bold;
+  font-family: "Trebuchet MS", Arial, Verdana, Sans-serif;
+}
+
+.post-num a, .post-num a:link, .post-num a:visited, .post-num a:active, .post-num a:hover {
+	color:white;	
+}
+
+.forum-post-wrapper {
+  background: url(images/forum-separater.jpg) repeat-y;
+  border-top: 1px solid #2587C4;
+  border-bottom: none;
+  height: 1%;
+}
+
+.forum-comment-left .author-name {
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 0 0 0.2em;
+}
+
+.forum-comment-left .picture img {
+	border: 1px solid #2587C4;
+	background: White;
+}
+
+#main #content .node .forum-comment .forum-comment-right .content {
+  border:none;
+}
+.author-title, .author-posts, .author-regdate, .author-points {
+font-size: 0.8em;
+}
+.author-icons {
+  padding: 0.4em 0 0 0;
+}
+.forum-comment-right .posttitle, .forum-comment-right .content {
+  padding-left: 2.5%;
+  margin-left: 0;
+}
+.forum-comment-right p {
+  margin-right: 2%;
+}
+.pager strong.pager-current {
+  padding: 0.3em 0.4em;
+  margin: 0 0.1em 0 ;
+}
+#forum td.created, #forum td.last-reply {
+  font-size: 0.9em;
+  line-height: 1.7;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+#forum th {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+#forum td {
+  border: 1px solid #95CDEF;
+}
+
+.user-signature {
+	margin: 15px 0px 1px 0px;
+	padding: 0px 1px 0px 5px;
+	font-size: 80%;
+	color: #2587C4;
+}
+
+/********************************* END FORUM THREADS ********************************************/
+
+/********************************* BEGIN USER INFO **********************************************/
+.user-info div {
+	margin-bottom: 6px;
+}
+/********************************* END USER INFO ************************************************/
+
+/********************************* BEGIN LINKS AS BUTTONS ***************************************/
+
+/* Attempt to override spacing around the buttons by theme */
+.forum-post-wrapper ul.inline li,
+.forum-post-wrapper ul.links li {
+   padding: 0pt;
+	padding-right: 0pt;
+	margin: 0pt;
+}
+
+.forum-top-links {
+	float:left;
+}
+
+.forumlinks li {
+	background: none;
+	margin: 0pt;
+	padding:0pt;
+	padding-right: 0pt;
+}
+
+.forumlinks li a {
+  background: #2587C4;
+  border: 2px #2587C4 outset;
+  padding: 1px 4px;
+  color: white;
+  text-decoration: none;
+  font: bold 90% "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+}
+
+.forumlinks li a:link {
+  color: white;
+}
+
+.forumlinks li a:active {
+  color: white;
+}
+
+.forumlinks li a:visited {
+  color: white;
+}
+
+.forumlinks li a:hover {
+  border-style: inset;
+  background-color: #B3D8EF;
+  padding: 2px 3px 0 5px; /*shift text 1px to the right and down*/
+}
+
+.topic_reply {
+	font-size: 1.2em;
+}
+/********************************* END LINKS AS BUTTONS ********************************************/
+
+
+
+
